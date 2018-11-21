@@ -1,0 +1,12 @@
+{
+  "mysqldb": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "lugna",
+    "password": "root",
+    "name": "mysqldb",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
