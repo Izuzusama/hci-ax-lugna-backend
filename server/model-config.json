@@ -52,5 +52,9 @@
   "WebUser": {
     "dataSource": "mysqldb",
     "public": true
+  },
+  "notification": {
+    "dataSource": "mysqldb",
+    "public": true
   }
 }
