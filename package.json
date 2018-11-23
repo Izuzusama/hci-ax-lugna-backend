@@ -8,7 +8,8 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
-    "posttest": "npm run lint"
+    "posttest": "npm run lint",
+    "build:sdk": "./node_modules/.bin/lb-sdk server/server.js sdk/ -d ng2native"
   },
   "dependencies": {
     "compression": "^1.0.3",
