@@ -28,6 +28,9 @@
     },
     "location": {
       "type": "string"
+    },
+    "activity": {
+      "type": "number"
     }
   },
   "validations": [],
