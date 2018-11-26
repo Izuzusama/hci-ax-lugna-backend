@@ -25,6 +25,9 @@
     },
     "suger": {
       "type": "number"
+    },
+    "location": {
+      "type": "string"
     }
   },
   "validations": [],
