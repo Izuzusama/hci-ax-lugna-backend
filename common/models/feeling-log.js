@@ -30,6 +30,7 @@ module.exports = function(Feelinglog) {
             avgSuger: 0,
             avgSleep: 0,
             avgCoffee: 0,
+            avgActivity: 0,
             total: 0
           };
           feelings.push(dtObjSelect);
@@ -38,6 +39,7 @@ module.exports = function(Feelinglog) {
         dtObjSelect.avgSuger += fl.suger;
         dtObjSelect.avgSleep += fl.sleep;
         dtObjSelect.avgCoffee += fl.coffee;
+        dtObjSelect.avgActivity += fl.activity;
         dtObjSelect.total += 1;
       });
       // Avg
@@ -46,6 +48,7 @@ module.exports = function(Feelinglog) {
         f.avgSuger = f.avgSuger / f.total;
         f.avgSleep = f.avgSleep / f.total;
         f.avgCoffee = f.avgCoffee / f.total;
+        f.avgActivity = f.avgActivity / f.total;
       });
       cb(null, feelings);
     });

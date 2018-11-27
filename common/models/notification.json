@@ -5,13 +5,18 @@
   "options": {
     "validateUpsert": true
   },
+  "mixins": {
+    "Author": true,
+    "TimeStamp": true
+  },
   "properties": {
     "message": {
       "type": "string",
       "required": true
     },
-    "notificationTime": {
-      "type": "date"
+    "title": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],

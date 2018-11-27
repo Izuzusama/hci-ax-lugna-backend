@@ -16,11 +16,6 @@
       "options": {
         "disableInclude": true
       }
-    },
-    "notifications": {
-      "type": "hasMany",
-      "model": "notification",
-      "foreignKey": ""
     }
   },
   "acls": [
